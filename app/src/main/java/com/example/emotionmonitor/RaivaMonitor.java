@@ -10,6 +10,12 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.YAxis;
+import com.github.mikephil.charting.data.Entry;
+import com.github.mikephil.charting.data.LineData;
+import com.github.mikephil.charting.data.LineDataSet;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.DataInput;
@@ -32,6 +38,7 @@ public class RaivaMonitor extends AppCompatActivity {
     private TextView textView;
     private TextView textView3;
     private TextView Cont;
+    private LineChart CHART;
     public int[] AR; //array containing data history
     public int AR_L; //array length
     public int progressP;
@@ -42,6 +49,7 @@ public class RaivaMonitor extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textView1);
         textView3 = (TextView) findViewById(R.id.textView3);
         Cont = (TextView) findViewById(R.id.textView4);
+        CHART = (LineChart) findViewById(R.id.chart);
         i = 0;
         j = 0;
     }
@@ -53,6 +61,7 @@ public class RaivaMonitor extends AppCompatActivity {
         Intent intent = getIntent();
         initializeVariables(); //inicia as variáveis.
         readData(); //inicia o array.
+        if(AR_L > 1) CreateChart();
         textView.setText("Covered: " + seekBar.getProgress() + "/" + seekBar.getMax());
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             int progress = 0;
@@ -82,7 +91,7 @@ public class RaivaMonitor extends AppCompatActivity {
     private void readData(){
         try { //tenta ler do arquivo
             Read();
-            ShowFileContent();
+            //ShowFileContent();
         } catch (IOException e) {
             AR_L = 1; //por padrão o tamanho do array é 1
             AR = new int[AR_L]; //definição do array com tamanho 1
@@ -140,7 +149,7 @@ public class RaivaMonitor extends AppCompatActivity {
             }
             temp = temp + Character.toString((char)c); //junta os caracteres que formam os numeros
         }
-        textView3.setText("leitura de:" + String.valueOf(i) + "numeros, feita com sucesso!");
+        //textView3.setText("leitura de:" + String.valueOf(i) + "numeros, feita com sucesso!");
         fin.close();
     }
 
@@ -165,7 +174,7 @@ public class RaivaMonitor extends AppCompatActivity {
         while( (c = fin.read()) != -1){ //encontra o primeiro valor inteiro
             temp = temp + Character.toString((char)c);
         }
-        Cont.setText(temp);
+        //Cont.setText(temp);
         fin.close();
     }
 
@@ -185,6 +194,28 @@ public class RaivaMonitor extends AppCompatActivity {
             textView3.setText("Falha na leitura");
             e.printStackTrace();
         }
+        CreateChart();
+    }
+
+    private void CreateChart(){ //cria o gráfico na view
+        List<Entry> entries = new ArrayList<Entry>();
+        for(int i = 1; i < AR_L; i++){
+            entries.add(new Entry(i, AR[i]));
+        }
+
+        LineDataSet dataSet = new LineDataSet(entries, "Histórico de Raiva");
+        dataSet.setColors(2);
+        LineData lineData = new LineData(dataSet);
+
+        dataSet.setDrawFilled(true);
+        YAxis left = CHART.getAxisLeft();
+        left.setDrawLabels(false);
+        left.setDrawAxisLine(false);
+        left.setDrawGridLines(false);
+        left.setDrawZeroLine(true);
+        CHART.setData(lineData);
+        CHART.invalidate();
+
     }
 
 }

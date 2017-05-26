@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_78e278ecee487d16fad089b1b1a9684e6383d5ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael Griffo\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.2\5d4eb08a326bdbd7fbbddc769666898c9936b282\MPAndroidChart-v3.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d4eb08a326bdbd7fbbddc769666898c9936b282">
+        <dex dex="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.2_d85efc7286036e8403693d60d9a4b4e75957716b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e8cd15100381d4bde82d571fa482b2751c357f63">
+        <dex dex="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ca97c934a2026cef5db5247da3600713c9564faa\classes.dex" />
+    </item>
+
+</items>

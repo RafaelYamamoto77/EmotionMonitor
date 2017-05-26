@@ -17,4 +17,24 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RaivaMonitor.class);
         startActivity(intent);
     }
+    public void goToSolidao(View view) {
+        Intent intent = new Intent(this, SolidaoMonitor.class);
+        startActivity(intent);
+    }
+    public void goToMedo(View view) {
+        Intent intent = new Intent(this, MedoMonitor.class);
+        startActivity(intent);
+    }
+    public void goToAnsiedade(View view) {
+        Intent intent = new Intent(this, AnsiedadeMonitor.class);
+        startActivity(intent);
+    }
+    public void goToTristeza(View view) {
+        Intent intent = new Intent(this, TristezaMonitor.class);
+        startActivity(intent);
+    }
+    public void goToEstresse(View view) {
+        Intent intent = new Intent(this, EstresseMonitor.class);
+        startActivity(intent);
+    }
 }

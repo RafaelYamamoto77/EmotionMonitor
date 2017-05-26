@@ -1,0 +1,7 @@
+#Fri May 26 05:57:44 BRT 2017
+base.0=C\:\\Users\\Raphael Griffo\\AndroidStudioProjects\\EmotionMonitor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_78e278ecee487d16fad089b1b1a9684e6383d5ff
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Raphael Griffo\\AndroidStudioProjects\\EmotionMonitor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ca97c934a2026cef5db5247da3600713c9564faa\\classes.dex
+base.1=C\:\\Users\\Raphael Griffo\\AndroidStudioProjects\\EmotionMonitor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ca97c934a2026cef5db5247da3600713c9564faa
+file.0=C\:\\Users\\Raphael Griffo\\AndroidStudioProjects\\EmotionMonitor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_78e278ecee487d16fad089b1b1a9684e6383d5ff\\classes.dex
