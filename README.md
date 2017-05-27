@@ -1,5 +1,5 @@
 # EmotionMonitor 1.0
-This is an Emotion Monitor app develeped by a group of students from Centro Universitário FEI as a project for the Software Engeneering subject.
+This is an Emotion Monitor app developed by a group of students from Centro Universitário FEI as a project for the Software Engeneering subject.
 
 
 Developers:
