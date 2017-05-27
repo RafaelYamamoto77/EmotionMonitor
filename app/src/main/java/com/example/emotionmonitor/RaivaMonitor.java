@@ -50,6 +50,7 @@ public class RaivaMonitor extends AppCompatActivity {
         textView3 = (TextView) findViewById(R.id.textView3);
         Cont = (TextView) findViewById(R.id.textView4);
         CHART = (LineChart) findViewById(R.id.chart);
+        progressP = 0;
         i = 0;
         j = 0;
     }
@@ -57,7 +58,9 @@ public class RaivaMonitor extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle(R.string.Raiva);
         setContentView(R.layout.activity_raiva_monitor);
+
         Intent intent = getIntent();
         initializeVariables(); //inicia as variáveis.
         readData(); //inicia o array.
@@ -96,7 +99,9 @@ public class RaivaMonitor extends AppCompatActivity {
             AR_L = 1; //por padrão o tamanho do array é 1
             AR = new int[AR_L]; //definição do array com tamanho 1
             try {
-                Write(1); //tenta fazer a primeira gravação de arquivo
+                Write(); //tenta fazer a primeira gravação de arquivo
+                AR_L++;
+                Write(); //grava 0 no primeiro registro
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
@@ -112,7 +117,7 @@ public class RaivaMonitor extends AppCompatActivity {
             j++;
     }
 
-    public void Write(int K) throws IOException {
+    public void Write() throws IOException {
         int tempAR[] = new int[AR_L];
         tempAR[0] = AR_L;
         FileOutputStream fOut = openFileOutput("Raiva_FILE",Context.MODE_PRIVATE);
@@ -181,7 +186,7 @@ public class RaivaMonitor extends AppCompatActivity {
     public void SaveData(View view){
         try {
             AR_L++;
-            Write(progressP);
+            Write();
         } catch (IOException e) {
             AR_L--;
             textView3.setText("Falha na escrita");

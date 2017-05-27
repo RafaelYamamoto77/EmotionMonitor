@@ -3,8 +3,8 @@ This is an Emotion Monitor app developed by a group of students from Centro Univ
 
 
 Developers:
-Danillo Ceccato Frazao
-Everson Marins Carvalhaes
-Gustavo Dos Santos Silva
-Rafael Yuji Ueda Yamamoto
-Raphael Griffo Duarte
+Danillo Ceccato Frazao; 
+Everson Marins Carvalhaes; 
+Gustavo Dos Santos Silva; 
+Rafael Yuji Ueda Yamamoto; 
+Raphael Griffo Duarte.

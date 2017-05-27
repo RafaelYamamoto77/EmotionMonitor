@@ -19,7 +19,7 @@
             android:id="@+id/textView"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="Qual a sua raiva?"
+            android:text="Qual o seu nível de raiva?"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:textAlignment="center"
@@ -48,7 +48,7 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Salvar"
             android:onClick="SaveData"/>

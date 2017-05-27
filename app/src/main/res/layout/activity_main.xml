@@ -19,49 +19,49 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="27dp"
-            android:text="Selecione a Emoção"
+            android:text="O que você esta sentindo no momento?"
             android:textAlignment="center"
             tools:layout_editor_absoluteX="92dp"
             tools:layout_editor_absoluteY="43dp" />
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:onClick="goToRaiva"
             android:text="Raiva" />
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:onClick="goToSolidao"
             android:text="Solidão" />
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:onClick="goToMedo"
             android:text="Medo" />
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:onClick="goToAnsiedade"
             android:text="Ansiedade" />
 
         <Button
             android:id="@+id/button7"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:onClick="goToTristeza"
             android:text="Tristeza" />
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:onClick="goToEstresse"
             android:text="Estresse" />

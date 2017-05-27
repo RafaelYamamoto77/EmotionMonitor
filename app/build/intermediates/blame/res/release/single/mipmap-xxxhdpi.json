@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Raphael Griffo\\AndroidStudioProjects\\EmotionMonitor\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Raphael Griffo\\AndroidStudioProjects\\EmotionMonitor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Raphael Griffo\\AndroidStudioProjects\\EmotionMonitor\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Raphael Griffo\\AndroidStudioProjects\\EmotionMonitor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

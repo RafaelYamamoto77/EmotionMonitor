@@ -19,12 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RaivaMonitor" />
-        <activity android:name=".TristezaMonitor" />
-        <activity android:name=".SolidaoMonitor" />
-        <activity android:name=".MedoMonitor" />
-        <activity android:name=".AnsiedadeMonitor" />
-        <activity android:name=".EstresseMonitor"></activity>
+        <activity android:name=".RaivaMonitor" android:label="@string/Raiva"/>
+        <activity android:name=".TristezaMonitor" android:label="@string/Tristeza"/>
+        <activity android:name=".SolidaoMonitor" android:label="@string/Solidao"/>
+        <activity android:name=".MedoMonitor" android:label="@string/Medo"/>
+        <activity android:name=".AnsiedadeMonitor" android:label="@string/Ansiedade"/>
+        <activity android:name=".EstresseMonitor" android:label="@string/Estresse"/>
     </application>
 
 </manifest>

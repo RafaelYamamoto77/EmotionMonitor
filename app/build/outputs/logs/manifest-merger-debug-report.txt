@@ -60,27 +60,39 @@ ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\
 	android:name
 		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.example.emotionmonitor.RaivaMonitor
-ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:22:9-50
+ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:22:9-79
+	android:label
+		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:22:48-77
 	android:name
 		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:22:19-47
 activity#com.example.emotionmonitor.TristezaMonitor
-ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:23:9-53
+ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:23:9-85
+	android:label
+		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:23:51-83
 	android:name
 		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:23:19-50
 activity#com.example.emotionmonitor.SolidaoMonitor
-ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:24:9-52
+ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:24:9-83
+	android:label
+		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:24:50-81
 	android:name
 		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:24:19-49
 activity#com.example.emotionmonitor.MedoMonitor
-ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:25:9-49
+ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:25:9-77
+	android:label
+		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:25:47-75
 	android:name
 		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:25:19-46
 activity#com.example.emotionmonitor.AnsiedadeMonitor
-ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:26:9-54
+ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:26:9-87
+	android:label
+		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:26:52-85
 	android:name
 		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:26:19-51
 activity#com.example.emotionmonitor.EstresseMonitor
-ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:27:9-62
+ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:27:9-85
+	android:label
+		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:27:51-83
 	android:name
 		ADDED from C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\src\main\AndroidManifest.xml:27:19-50
 uses-sdk

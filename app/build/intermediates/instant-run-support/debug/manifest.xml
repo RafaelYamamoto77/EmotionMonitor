@@ -25,12 +25,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.emotionmonitor.RaivaMonitor" />
-        <activity android:name="com.example.emotionmonitor.TristezaMonitor" />
-        <activity android:name="com.example.emotionmonitor.SolidaoMonitor" />
-        <activity android:name="com.example.emotionmonitor.MedoMonitor" />
-        <activity android:name="com.example.emotionmonitor.AnsiedadeMonitor" />
-        <activity android:name="com.example.emotionmonitor.EstresseMonitor" />
+        <activity
+            android:name="com.example.emotionmonitor.RaivaMonitor"
+            android:label="@string/Raiva" />
+        <activity
+            android:name="com.example.emotionmonitor.TristezaMonitor"
+            android:label="@string/Tristeza" />
+        <activity
+            android:name="com.example.emotionmonitor.SolidaoMonitor"
+            android:label="@string/Solidao" />
+        <activity
+            android:name="com.example.emotionmonitor.MedoMonitor"
+            android:label="@string/Medo" />
+        <activity
+            android:name="com.example.emotionmonitor.AnsiedadeMonitor"
+            android:label="@string/Ansiedade" />
+        <activity
+            android:name="com.example.emotionmonitor.EstresseMonitor"
+            android:label="@string/Estresse" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Emotion Monitor</string>
+    <string name="Raiva">Raiva</string>
+    <string name="Tristeza">Tristeza</string>
+    <string name="Solidao">Solidão</string>
+    <string name="Medo">Medo</string>
+    <string name="Ansiedade">Ansiedade</string>
+    <string name="Estresse">Estresse</string>
 </resources>

@@ -50,6 +50,7 @@ public class EstresseMonitor extends AppCompatActivity {
         textView3 = (TextView) findViewById(R.id.textView3);
         Cont = (TextView) findViewById(R.id.textView4);
         CHART = (LineChart) findViewById(R.id.chart);
+        progressP = 0;
         i = 0;
         j = 0;
     }
@@ -59,6 +60,7 @@ public class EstresseMonitor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_estresse_monitor);
         Intent intent = getIntent();
+        setTitle(R.string.Estresse);
         initializeVariables(); //inicia as variáveis.
         readData(); //inicia o array.
         if(AR_L > 1) CreateChart();
@@ -97,6 +99,8 @@ public class EstresseMonitor extends AppCompatActivity {
             AR = new int[AR_L]; //definição do array com tamanho 1
             try {
                 Write(1); //tenta fazer a primeira gravação de arquivo
+                AR_L++;
+                Write(1); //grava 0 no primeiro registro
             } catch (IOException e1) {
                 e1.printStackTrace();
             }

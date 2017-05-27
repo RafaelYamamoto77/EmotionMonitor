@@ -50,6 +50,7 @@ public class AnsiedadeMonitor extends AppCompatActivity {
         textView3 = (TextView) findViewById(R.id.textView3);
         Cont = (TextView) findViewById(R.id.textView4);
         CHART = (LineChart) findViewById(R.id.chart);
+        progressP = 0;
         i = 0;
         j = 0;
     }
@@ -59,6 +60,7 @@ public class AnsiedadeMonitor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ansiedade_monitor);
         Intent intent = getIntent();
+        setTitle(R.string.Ansiedade);
         initializeVariables(); //inicia as variáveis.
         readData(); //inicia o array.
         if(AR_L > 1) CreateChart();
@@ -96,7 +98,9 @@ public class AnsiedadeMonitor extends AppCompatActivity {
             AR_L = 1; //por padrão o tamanho do array é 1
             AR = new int[AR_L]; //definição do array com tamanho 1
             try {
-                Write(1); //tenta fazer a primeira gravação de arquivo
+                Write(0);
+                AR_L++;
+                Write(0); //grava 0 no primeiro registro
             } catch (IOException e1) {
                 e1.printStackTrace();
             }

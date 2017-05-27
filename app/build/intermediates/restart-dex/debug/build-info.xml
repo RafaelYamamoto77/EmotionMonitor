@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
-    api-level="23"
+    abi="x86"
+    api-level="25"
     build-mode="FULL"
-    density="xxhdpi"
+    density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1495789063304"
+    timestamp="1495852956223"
     token="-6793115964326781186"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -18,11 +18,17 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="217" />
     <task
         name="verifier"
-        duration="0" />
+        duration="176" />
 
+    <artifact
+        location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
@@ -48,13 +54,7 @@
         location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -62,8 +62,14 @@
 
     <build
         build-mode="FULL"
-        timestamp="1495789063304"
+        timestamp="1495852956223"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
@@ -89,13 +95,7 @@
             location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Raphael Griffo\AndroidStudioProjects\EmotionMonitor\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
